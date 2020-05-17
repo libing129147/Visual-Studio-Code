@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 下拉菜单</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class=" container">
+        <div class=" dropdown">
+            <button class=" btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">主題
+                <span class=" caret"></span>
+            </button>
+            <ul class=" dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">Java</a>
+                </li>
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">C#</a>
+                </li>
+                <li role="presentation" class=" divider">
+                </li>
+                <li role="presentation" class=" dropdown-header">下拉菜單標題</li>
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">分離連接</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
